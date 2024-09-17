@@ -1,12 +1,11 @@
 #!/usr/bin/env bash
-# using for loop to output "Best School" 10 times
+# using while loop to output "Best School" 10 times
 
 num=0
 
 while [ $num -lt 10 ] 
 do
-	if [ $num -eq 8 ]
-	then
+	if [ $num -eq 8 ]; then
 		echo "Hi"
 	else
 		echo "Best School"
