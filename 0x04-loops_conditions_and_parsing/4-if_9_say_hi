@@ -3,12 +3,12 @@
 
 num=0
 
-while [ $num -lt 10 ] 
+while [ $num -lt 11 ] 
 do
-    if [ $num -eq 8 ]; then
-        echo "Hi   "
+    if [ $num -eq 9 ]; then
+        echo "Hi"
     else
-        echo "Best School "
+        echo "Best School"
     fi
     num=$((num + 1))
 done
