@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Using netstat command to displave listenin port
 
 netstat -lp
